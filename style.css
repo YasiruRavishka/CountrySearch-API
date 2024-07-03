@@ -1,20 +1,39 @@
-body .container h1{
-    padding: 5px;
-    font-weight: 600;
+#inputArea {
+  display: flex;
+  margin: 5px;
 }
-#inputArea{
-    display: flex;
+#inputArea h1 {
+  width: 60%;
+  margin: 0;
+  padding: 5px;
+  font-weight: 600;
+  pointer-events: none;
 }
-#inputArea #txtSearchValue{
-    padding: 10px;
-    border-radius: 20px;
-    border-style: solid;
+#inputArea #txtSearchValue {
+  width: 40%;
+  padding: 10px;
+  border-radius: 20px;
+  border-style: solid;
 }
-#searchResults{
-    margin: 30px;
-    padding: 5px;
-    text-align: center;
+#searchResults {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
 }
-#tbl td img{
-    width: 30px;
+.table {
+  text-align: center;
+}
+.table tr th {
+  background-color: whitesmoke;
+  pointer-events: none;
+}
+.table #tblBody tr:hover {
+  cursor: default;
+}
+.table #tblBody tr td img {
+  width: 40px;
 }
