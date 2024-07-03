@@ -21,7 +21,7 @@ function searchCountry() {
 
   tableRows.forEach((row) => {
     const countryName = row.querySelector("td").innerHTML.toLowerCase();
-    if (countryName.startsWith(searchValue)) {
+    if (countryName.includes(searchValue)) {
       row.style.display = "";
     } else {
       row.style.display = "none";
