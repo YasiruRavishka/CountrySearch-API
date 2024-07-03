@@ -11,7 +11,7 @@ fetch("https://restcountries.com/v3.1/all")
     data.forEach((element) => {
       tblBody += `<tr>
                     <td>${element.name.common}</td>
-                    <td>${element.flag}</td>
+                    <td><img src="${element.flags.png}" alt=""></td>
                 </tr>`;
     });
 

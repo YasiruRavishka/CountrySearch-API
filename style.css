@@ -15,3 +15,6 @@ body .container h1{
     padding: 5px;
     text-align: center;
 }
+#tbl td img{
+    width: 30px;
+}
