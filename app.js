@@ -33,7 +33,6 @@ function searchResult(name) {
   fetch("https://restcountries.com/v3.1/name/" + name)
     .then((res) => res.json())
     .then((data) => {
-      console.log(data);
       const searchResults = document.getElementById("searchResults");
       const officialName = document.getElementById("officialName");
       const capital = document.getElementById("capital");
