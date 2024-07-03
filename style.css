@@ -1,0 +1,13 @@
+#inputArea{
+    display: flex;
+}
+#inputArea #txtSearchValue{
+    padding: 10px;
+    border-radius: 20px;
+    border-style: solid;
+}
+#searchResults{
+    margin: 30px;
+    padding: 5px;
+    text-align: center;
+}
